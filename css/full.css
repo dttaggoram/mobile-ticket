@@ -1,0 +1,96 @@
+
+
+body {
+    margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+	background-color:transparent;
+}
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+.full {
+    background: url('../img/bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.navbar {
+	font-family: "Andale Mono", Lucida Console, Lucida Grande, sans-serif;
+}
+
+.navunderline .active {
+    color:#FFCD00;
+	text-decoration: underline;
+}
+
+.navunderline a:hover {
+	text-decoration: underline;
+}
+
+
+.opaque {
+	background-color:rgba(255,255,255,0.8);
+	border-radius: 10px;
+	margin-top: 30px;
+	padding:10px;
+}
+
+h1 {
+    font-family: "Andale Mono", Lucida Console, Lucida Grande, sans-serif;
+    font-size: 35px;
+    line-height: 35px;
+    font-weight: bold;
+}
+
+
+h2 {
+	font-family: "Andale Mono", Lucida Console, Lucida Grande, sans-serif;
+	font-size: x-large;
+	line-height: 25px;
+	font-weight: bold;
+}
+
+/* FAQs styles */
+ul.questions {
+    background: url("../img/Q.png") no-repeat scroll 0 0px transparent;
+    float: left;
+    margin-top:25px;
+    width: 460px;
+    min-height: 35px;
+	list-style:none;
+}
+ul.questions li , ul.answers li {margin-left:40px;}
+ul.questions li {
+    line-height: 18px;
+    padding-top: 5px;
+}
+ul.questions li {
+    margin-bottom: 20px 0 45px 0px;
+    padding-top: 5px;
+}
+ul.answers {
+    line-height: 18px;
+    background: url("../img/A.png") no-repeat scroll 15px 13px transparent;
+    border-left: 2px ridge #666666;
+    float: right;
+    padding-bottom: 22px;
+    padding-left: 20px;
+    padding-top: 15px;
+    width: 510px;
+    min-height: 30px;
+	margin:0px;
+	list-style:none;
+}
+.line {
+    clear: both;
+    font-size: 0;
+    height: 0px;
+    line-height: 0px;
+	border: 1px outset #666;
+	margin: 0;
+}
+
+li.right {
+	float: right;
+}
